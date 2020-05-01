@@ -1,7 +1,7 @@
 
-			@extends('layouts.front')
+@extends('layouts.front')
 
-@section('content')	
+@section('content')
 
 
 			<section>
@@ -116,4 +116,4 @@
 			</div>
 		</div>
 	</section>
-			@endsection		
+			@endsection

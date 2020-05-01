@@ -29,3 +29,7 @@ Route::get('/booking', 'HomeController@booking')->name('booking');
 Route::get('/forfait', 'HomeController@forfait')->name('forfait');
 Route::get('/myprofile', 'HomeController@myprofile')->name('myprofile');
 Route::get('/metier/details', 'HomeController@metierDetail')->name('metier.detail');
+
+Route::group(['prefix' => 'admin'], function(){
+    Route::get('/', 'Admin\HomeController@index')->name('admin');
+});
