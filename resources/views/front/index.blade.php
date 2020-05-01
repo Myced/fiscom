@@ -2,10 +2,10 @@
 
 @section('title')
 fiscom
-    
+
 @endsection
 
-@section('content')  
+@section('content')
     <!--HEADER SECTION-->
 	<section>
 		<div>
@@ -23,7 +23,7 @@ fiscom
 
                         </div>
 					</li>
-					
+
 					<li> <img src="/assets/images/fiscom/banner14.png" alt="">
 						<!-- random image -->
 						<div class="caption center-align slid-cap">
@@ -33,8 +33,8 @@ fiscom
 
                         </div>
 					</li>
-					
-					
+
+
                     <li> <img src="/assets/images/fiscom/mertier0.jpeg" alt="">
                         <!-- random image -->
                         <div class="caption center-align slid-cap">
@@ -74,7 +74,7 @@ fiscom
 
                         </div>
                     </li>
-                    
+
 				</ul>
 			</div>
 				</div>
@@ -131,7 +131,7 @@ fiscom
                     <!-- TOUR PLACE 2 -->
                     <div class="col-md-4 col-sm-6 col-xs-12 b_packages wow fadeInUp" data-wow-duration="0.7s">
                         <!-- OFFER BRAND -->
-                        
+
                         <!-- IMAGE -->
                         <div class="v_place_img"> <img src="/assets/images/fiscom/metier7.jpg" alt="Tour Booking" title="Waste Management & Power Supply" /> </div>
                         <!-- TOUR TITLE & ICONS -->
@@ -209,7 +209,7 @@ fiscom
                             </div>
                         </div>
                     </div>
-          
+
                     <div class="col-md-4 col-sm-6 col-xs-12 b_packages wow fadeInUp" data-wow-duration="1.3s">
                         <div class="v_place_img"><img src="/assets/images/fiscom/metier14.jpg" alt="Tour Booking" title="Minning" /> </div>
                         <div class="b_pack rows">
@@ -234,7 +234,7 @@ fiscom
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-md-4 col-sm-6 col-xs-12 b_packages wow fadeInUp" data-wow-duration="1.5s">
                         <div class="v_place_img"><img src="/assets/images/fiscom/metier15.jpg" alt="Tour Booking" title="Forestry" /> </div>
                         <div class="b_pack rows">
@@ -267,7 +267,7 @@ fiscom
      <section>
         <div class="rows tb-space pad-top-o pad-bot-redu">
             <div class="container">
-                
+
                 <div class="spe-title">
                     <h2><span>Nos Formation </span> </h2>
                     <div class="title-line">
@@ -277,7 +277,7 @@ fiscom
                     </div>
                     <p>Nous offrons apprentissage qui permet d'acquérir le savoir, le savoir-faire et le savoir-être (capacité et aptitude) nécessaires à l'exercice d'un métier ou d'une activité professionnelle.</p>
                 </div>
-                
+
 
                 <div class="col-md-6">
                     <a href="{{ route('publication') }}">
@@ -285,7 +285,7 @@ fiscom
                             <div class="tour-mig-lc-img"> <img src="/assets/images/fiscom/formation.jpg" alt=""> </div>
                             <div class="tour-mig-lc-con">
                                 <h5>Gestion des projets</h5>
-                                
+
                             </div>
                         </div>
                     </a>
@@ -296,7 +296,7 @@ fiscom
                             <div class="tour-mig-lc-img"> <img src="/assets/images/fiscom/formation3.jpg" alt=""> </div>
                             <div class="tour-mig-lc-con tour-mig-lc-con2">
                                 <h5>Comptabilité </h5>
-                               
+
                             </div>
                         </div>
                     </a>
@@ -307,7 +307,7 @@ fiscom
                             <div class="tour-mig-lc-img"> <img src="/assets/images/fiscom/formation6.png" alt=""> </div>
                             <div class="tour-mig-lc-con tour-mig-lc-con2">
                                 <h5>Contrôle Qualité</h5>
-                                
+
                             </div>
                         </div>
                     </a>
@@ -318,7 +318,7 @@ fiscom
                             <div class="tour-mig-lc-img"> <img src="/assets/images/fiscom/formation8.jpg" alt=""> </div>
                             <div class="tour-mig-lc-con tour-mig-lc-con2">
                                 <h5>Audit</h5>
-                                
+
                             </div>
                         </div>
                     </a>
@@ -329,7 +329,7 @@ fiscom
                             <div class="tour-mig-lc-img"> <img src="/assets/images/fiscom/formation9.jpg" alt=""> </div>
                             <div class="tour-mig-lc-con tour-mig-lc-con2">
                                 <h5>Administration</h5>
-                               
+
                             </div>
                         </div>
                     </a>
@@ -338,7 +338,7 @@ fiscom
         </div>
     </section>
     <!--====== HOME HOTELS ==========-->
-    
+
     <section>
         <div class="rows tb-space">
             <div class="container events events-1" id="inner-page-title">
@@ -359,58 +359,32 @@ fiscom
                             <th></th>
                             <th>Titre</th>
                             <th class="e_h1">Date</th>
-                            <th class="e_h1">Secteur</th>
-                            <th class="e_h1">Place</th>
+                            <th class="e_h1">Autheur</th>
                             <th>Télécharge</th>
                         </tr>
-                        <tr>
-                            <td>1</td>
-                            <td><img src="/assets/images/rich/rich.png" alt="" /><a href="hotels-list.html" class="events-title">Launching of our depistage campaign against CORONA VIRUS</a> </td>
-                            <td class="e_h1">20/06/2020</td>
-                            <td class="e_h1">10.00 PM</td>
-                            <td class="e_h1">Cameroon</td>
-                            <td><a href="#" class="link-btn">Télécharge</a> </td>
-                        </tr>
-                       <tr>
-                            <td>2</td>
-                            <td><img src="/assets/images/rich/rich.png" alt="" /><a href="hotels-list.html" class="events-title">Supply of handsensatiser and infrared thermometer</a> </td>
-                            <td class="e_h1">19/06/2020</td>
-                            <td class="e_h1">10.00 PM</td>
-                            <td class="e_h1">Ghana</td>
-                            <td><a href="#" class="link-btn">Télécharge</a> </td>
-                        </tr>
-                         <tr>
-                            <td>3</td>
-                            <td><img src="/assets/images/rich/rich.png" alt="" /><a href="hotels-list.html" class="events-title">Caravanne to sensibiliser yount against CORONA VIRUS</a> </td>
-                            <td class="e_h1">18/06/2020</td>
-                            <td class="e_h1">08.00 PM</td>
-                            <td class="e_h1">Cameroon</td>
-                            <td><a href="#" class="link-btn">Télécharge</a> </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td><img src="/assets/images/rich/rich.png" alt="" /><a href="hotels-list.html" class="events-title">Caravanne to sensibiliser yount against CORONA VIRUS</a> </td>
-                            <td class="e_h1">18/06/2020</td>
-                            <td class="e_h1">08.00 PM</td>
-                            <td class="e_h1">Cameroon</td>
-                            <td><a href="#" class="link-btn">Télécharge</a> </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td><img src="/assets/images/rich/rich.png" alt="" /><a href="hotels-list.html" class="events-title">Caravanne to sensibiliser yount against CORONA VIRUS</a> </td>
-                            <td class="e_h1">18/06/2020</td>
-                            <td class="e_h1">08.00 PM</td>
-                            <td class="e_h1">Cameroon</td>
-                            <td><a href="#" class="link-btn">Télécharge</a> </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td><img src="/assets/images/rich/rich.png" alt="" /><a href="hotels-list.html" class="events-title">Caravanne to sensibiliser yount against CORONA VIRUS</a> </td>
-                            <td class="e_h1">18/06/2020</td>
-                            <td class="e_h1">08.00 PM</td>
-                            <td class="e_h1">Cameroon</td>
-                            <td><a href="#" class="link-btn">Télécharge</a> </td>
-                        </tr>
+
+                        @php
+                            $count = 1;
+                        @endphp
+                        @foreach($documents as $document)
+                            <tr>
+                                <td> {{ $count++ }} </td>
+                                <td><img src="/assets/images/pdf.svg" alt="" />
+                                    <a href="javascript:void(0)" class="events-title">
+                                        {{ $document->name }}
+                                    </a>
+                                </td>
+                                <td class="e_h1">{{ $document->created_at->format('d/m/Y') }}</td>
+                                <td class="e_h1"> {{ $document->author }} </td>
+                                <td>
+                                    <a href="{{ route('document.download', ['hash' => $document->hash]) }}" class="link-btn"
+                                        target="_blank">
+                                        Télécharge
+                                    </a>
+                                </td>
+                            </tr>
+                        @endforeach
+
                     </tbody>
                 </table>
             </div>
@@ -420,7 +394,7 @@ fiscom
    < <section>
         <div class="rows pla pad-bot-redu tb-space">
             <div class="pla1 p-home container">
-                
+
                 <div class="spe-title spe-title-1">
                     <h2>Notre<span> Réseau</span></h2>
                     <div class="title-line">
@@ -431,14 +405,14 @@ fiscom
                     <p></p>
                 </div>
                 <div class="popu-places-home">
-                    
+
                     <div class="col-md-6 col-sm-6 col-xs-12 place">
                         <div class="col-md-6 col-sm-12 col-xs-12"> <img src="/assets/images/rich/bw.png" alt="" /> </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <h3>Like-Concept</h3>
                             <p></p> <a href="www.babock.com" class="link-btn">more info</a> </div>
                     </div>
-                    
+
                     <div class="col-md-6 col-sm-6 col-xs-12 place">
                         <div class="col-md-6 col-sm-12 col-xs-12"> <img src="/assets/images/rich/kns.png" alt="" /> </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
@@ -447,14 +421,14 @@ fiscom
                     </div>
                 </div>
                 <div class="popu-places-home">
-                    
+
                     <div class="col-md-6 col-sm-6 col-xs-12 place">
                         <div class="col-md-6 col-sm-12 col-xs-12"> <img src="/assets/images/rich/capture.png" alt="" /> </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <h3>GLOBAL ECOVILLAGE NETWORK</h3>
                             <p></p> <a href="www.ecovillage.orgl" class="link-btn">more info</a> </div>
                     </div>
-                   
+
                     <div class="col-md-6 col-sm-6 col-xs-12 place">
                         <div class="col-md-6 col-sm-12 col-xs-12"> <img src="/assets/images/rich/gaia.png" alt="" /> </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
@@ -474,11 +448,11 @@ fiscom
         <div class="foot-mob-sec tb-space">
             <div class="rows container">
                 <!-- FAMILY IMAGE(YOU CAN USE ANY PNG IMAGE) -->
-                <div class="col-md-6 col-sm-6 col-xs-12 family"> 
+                <div class="col-md-6 col-sm-6 col-xs-12 family">
                     <img src="/assets/images/rich/account.png" alt="" />
-                   
+
                     <img src="/assets/images/rich/profile.jpg" alt="">
-                    
+
                 </div>
                 <!-- REQUEST A QUOTE -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -491,7 +465,7 @@ fiscom
                             <li><i class="fa fa-check" aria-hidden="true"></i> Profitez de nous services 24hr/24 et 7jr/7</li>
                             <li><i class="fa fa-check" aria-hidden="true"></i> Consulte l'actualité sur notre secteur d'activité</li>
                         </ul>
-                        
+
                     </div>
                 </div>
             </div>
@@ -547,6 +521,5 @@ fiscom
             </div>
         </div>
     </section>
-    
-@endsection
 
+@endsection

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Document;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,7 +24,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('front.index');
+        //get all active documents.
+        $documents = Document::where('active', true)->get();
+
+        return view('front.index', compact('documents'));
     }
 
     public function apropos()
@@ -80,5 +84,5 @@ class HomeController extends Controller
     {
         return view('front.payment');
     }
-    
+
 }

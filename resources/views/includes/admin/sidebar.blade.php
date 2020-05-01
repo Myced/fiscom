@@ -27,13 +27,13 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="general-widget.html">
+                    <a href="{{ route('admin.documents') }}">
                         <i class="fa fa-circle"></i>
                         All Documents
                     </a>
                 </li>
                 <li>
-                    <a href="chart-widget.html">
+                    <a href="{{ route('admin.document.create') }}">
                         <i class="fa fa-circle"></i>
                         Add Document
                     </a>

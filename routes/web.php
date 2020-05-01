@@ -30,6 +30,14 @@ Route::get('/forfait', 'HomeController@forfait')->name('forfait');
 Route::get('/myprofile', 'HomeController@myprofile')->name('myprofile');
 Route::get('/metier/details', 'HomeController@metierDetail')->name('metier.detail');
 
+Route::get('/documents/download/{hash}', 'Admin\DocumentsController@download')->name("document.download");
+
 Route::group(['prefix' => 'admin'], function(){
     Route::get('/', 'Admin\HomeController@index')->name('admin');
+
+    Route::group(['prefix' => 'documents'], function(){
+        Route::get('/', 'Admin\DocumentsController@index')->name('admin.documents');
+        Route::get('/create', 'Admin\DocumentsController@create')->name('admin.document.create');
+        Route::post('/store', 'Admin\DocumentsController@store')->name('admin.document.store');
+    });
 });
