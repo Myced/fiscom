@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\User;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
@@ -46,5 +47,22 @@ class LoginController extends Controller
     public function username()
     {
         return 'email';
+    }
+
+    /**
+     * The user has been authenticated.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  mixed  $user
+     * @return mixed
+     */
+    protected function authenticated($request, $user)
+    {
+
+        if($user->level == User::ADMINISTRATOR)
+        {
+            //SEND THEM TO THE ADMIN SECTION
+            return redirect()->route('admin');
+        }
     }
 }

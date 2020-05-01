@@ -32,7 +32,7 @@ Route::get('/metier/details', 'HomeController@metierDetail')->name('metier.detai
 
 Route::get('/documents/download/{hash}', 'Admin\DocumentsController@download')->name("document.download");
 
-Route::group(['prefix' => 'admin'], function(){
+Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'admin']], function(){
     Route::get('/', 'Admin\HomeController@index')->name('admin');
 
     Route::group(['prefix' => 'documents'], function(){
