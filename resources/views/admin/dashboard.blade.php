@@ -10,11 +10,10 @@
         <div class="row">
           <div class="col">
             <div class="page-header-left">
-              <h3>E-commerce</h3>
+              <h3>Dashboard</h3>
               <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index-2.html"><i data-feather="home"></i></a></li>
+                <li class="breadcrumb-item"><a href="{{ route('admin') }}"><i data-feather="home"></i></a></li>
                 <li class="breadcrumb-item">Dashboard</li>
-                <li class="breadcrumb-item active">E-commerce</li>
               </ol>
             </div>
           </div>
@@ -131,13 +130,7 @@
                   </div>
                   <div class="code-box-copy">
                     <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#example-head" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
-                    <pre><code class="language-html" id="example-head">&lt;!-- Cod Box Copy begin --&gt;
-    &lt;div class="card-body charts-box"&gt;
-    &lt;div class="flot-chart-container"&gt;
-    &lt;div id="graph123" class="flot-chart-placeholder"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!-- Cod Box Copy end --&gt;</code></pre>
+                    
                   </div>
                 </div>
               </div>
@@ -812,56 +805,7 @@
               </div>
               <div class="code-box-copy">
                 <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#example-head7" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
-                <pre><code class="language-html" id="example-head7">&lt;!-- Cod Box Copy begin --&gt;
-    &lt;div class="table-responsive shopping-table text-center"&gt;
-    &lt;table class="table table-bordernone"&gt;
-    &lt;thead&gt;
-    &lt;tr&gt;
-    &lt;th scope="col"&gt;No&lt;/th&gt;
-    &lt;th scope="col"&gt;Product&lt;/th&gt;
-    &lt;th scope="col"&gt;Quantity&lt;/th&gt;
-    &lt;th scope="col"&gt;Status&lt;/th&gt;
-    &lt;th scope="col"&gt;Amount&lt;/th&gt;
-    &lt;th scope="col"&gt;Delete&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-    &lt;tr&gt;
-    &lt;td&gt;1&lt;/td&gt;
-    &lt;td&gt;Computer&lt;/td&gt;
-    &lt;td&gt;5&lt;/td&gt;
-    &lt;td&gt;&lt;button class="btn btn-primary btn-pill"&gt;Active&lt;/button&gt;&lt;/td&gt;
-    &lt;td&gt;15000&lt;/td&gt;
-    &lt;td&gt;&lt;i data-feather="x"&gt;&lt;/i&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-    &lt;td&gt;2&lt;/td&gt;
-    &lt;td&gt;Headphone&lt;/td&gt;
-    &lt;td&gt;8&lt;/td&gt;
-    &lt;td&gt;&lt;button class="btn btn-primary btn-pill"&gt;Disable&lt;/button&gt;&lt;/td&gt;
-    &lt;td&gt;8000&lt;/td&gt;
-    &lt;td&gt;&lt;i data-feather="x"&gt;&lt;/i&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-    &lt;td&gt;3&lt;/td&gt;
-    &lt;td&gt;Furniture&lt;/td&gt;
-    &lt;td&gt;3&lt;/td&gt;
-    &lt;td&gt;&lt;button class="btn btn-primary btn-pill"&gt;Paused&lt;/button&gt;&lt;/td&gt;
-    &lt;td&gt;12000&lt;/td&gt;
-    &lt;td&gt;&lt;i data-feather="x"&gt;&lt;/i&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-    &lt;td&gt;4&lt;/td&gt;
-    &lt;td&gt;shoes&lt;/td&gt;
-    &lt;td&gt;9&lt;/td&gt;
-    &lt;td&gt;&lt;button class="btn btn-primary btn-pill"&gt;On Way&lt;/button&gt;&lt;/td&gt;
-    &lt;td&gt;5500&lt;/td&gt;
-    &lt;td&gt;&lt;i data-feather="x"&gt;&lt;/i&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;/tbody&gt;
-    &lt;/table&gt;
-    &lt;/div&gt;
-    &lt;!-- Cod Box Copy end --&gt;</code></pre>
+
               </div>
             </div>
           </div>
@@ -887,11 +831,7 @@
               </div>
               <div class="code-box-copy">
                 <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#example-head8" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
-                <pre><code class="language-html" id="example-head8">&lt;!-- Cod Box Copy begin --&gt;
-    &lt;div class="text-center ecommerce-knob"&gt;
-    &lt;input class="knob" data-width="294" data-height="294" data-angleOffset="180" data-fgColor="#4466f2" data-skin="tron" data-thickness=".1" value="35"&gt;
-    &lt;/div&gt;
-    &lt;!-- Cod Box Copy end --&gt;</code></pre>
+
               </div>
             </div>
           </div>
