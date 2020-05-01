@@ -11,10 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index')->name('index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/publication', 'HomeController@publication')->name('publication');
+Route::get('/claim', 'HomeController@claim')->name('claim');
+Route::get('/payment', 'HomeController@payment')->name('payment');
+Route::get('/apropos', 'HomeController@apropos')->name('apropos');
+Route::get('/bibliotheque', 'HomeController@bibliotheque')->name('bibliotheque');
+Route::get('/metier', 'HomeController@metier')->name('metier');
+Route::get('/reseau', 'HomeController@reseau')->name('reseau');
+Route::get('/event/details', 'HomeController@eventDetail')->name('event.detail');
+Route::get('/profile', 'HomeController@profile')->name('profile');
+Route::get('/booking', 'HomeController@booking')->name('booking');
+Route::get('/forfait', 'HomeController@forfait')->name('forfait');
+Route::get('/myprofile', 'HomeController@myprofile')->name('myprofile');
+Route::get('/metier/details', 'HomeController@metierDetail')->name('metier.detail');

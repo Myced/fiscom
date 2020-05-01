@@ -55,8 +55,8 @@
      -moz-transition: all 0.5s ease;
      -ms-transition: all 0.5s ease;
      -o-transition: all 0.5s ease;
-     background: #f4364f;
-     background: linear-gradient(to bottom,#f4364f,#dc2039);
+     background: #3c763d;
+     background: linear-gradient(to bottom,#3c763d,#3c763d);
 }
  .link-btn:hover {
      background-color: #e23464;
@@ -213,7 +213,7 @@
      */
 }
  .spe-title h2 span {
-     color: #f4364f;
+     color: #26a69a;
      font-size: 44px;
      font-weight: 600;
      font-family: 'Quicksand', sans-serif;
@@ -323,7 +323,7 @@
      position: relative;
      width: 100%;
      overflow: hidden;
-     background: url(../images/bannerbg.jpg) no-repeat center center;
+     background: url(../assets/images/picbg.jpg) no-repeat center center;
      background-size: cover;
 }
  .item {
@@ -372,7 +372,7 @@
      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0);
 }
  .banner {
-     background: url('../images/banner.jpg') no-repeat;
+     background: url('../assets/images/pic.jpg') no-repeat;
      background-size: cover;
      padding: 100px 0px;
      position: relative;
@@ -1029,15 +1029,15 @@
      -o-transition: all 0.5s ease;
      font-weight: 700;
      text-decoration: none;
-     color: #253d52;
+     color: #3c763d);
      padding: 6px 15px;
      border-radius: 2px;
      display: inline-block;
      font-family: 'Quicksand', sans-serif;
 }
  .events table tr td a:hover {
-     background: #e23464;
-     background: linear-gradient(to bottom,#de253f,#df275a);
+     background: #3c763d);
+     background: linear-gradient(to bottom,#3c763d,#3c763d);
 }
  .events table tr th:first-child {
      text-align: center !important;
@@ -1602,7 +1602,7 @@
 /* 12.1 OFFERS & DISCOUNTS 
 /*-------------------------------------------------------*/
  .disco {
-     background: url('../images/f1.png') no-repeat center center;
+     background: url('../images/extra.png') no-repeat center center;
      background-size: cover;
      padding: 20px 15px 22px 15px;
      text-align: center;
@@ -1610,7 +1610,7 @@
      */
 }
  .disco1 {
-     background: url('../images/f2.png') no-repeat center center;
+     background: url('../images/social.jpg') no-repeat center center;
      background-size: cover;
 }
  .disco h3 {
@@ -1737,23 +1737,23 @@
      width: 100%;
 }
  .inner_banner_1 {
-     background: url('../images/banner/1.jpg') no-repeat center center;
+     background: url('../assets/images/pic/1.jpg') no-repeat center center;
      background-size: cover;
 }
  .inner_banner_2 {
-     background: url('../images/banner/2.jpg') no-repeat center center;
+     background: url('../assets/images/pic/5.jpg') no-repeat center center;
      background-size: cover;
 }
  .inner_banner_3 {
-     background: url('../images/banner/3.jpg') no-repeat center center;
+     background: url('../assets/images/pic/3.jpg') no-repeat center center;
      background-size: cover;
 }
  .inner_banner_4 {
-     background: url('../images/banner/4.jpg') no-repeat center center;
+     background: url('../assets/images/pic/4.jpg') no-repeat center center;
      background-size: cover;
 }
  .inner_banner_5 {
-     background: url('../images/banner/5.jpg') no-repeat center center;
+     background: url('../images/rich/covid.jpg') no-repeat center center;
      background-size: cover;
 }
  .inner_banner div {
@@ -2979,7 +2979,7 @@
     /* centers the loading animation horizontally one the screen */
      top: 50%;
     /* centers the loading animation vertically one the screen */
-     background-image: url(../images/preloader.gif);
+     background-image: url(../images/preload.svg);
     /* path to your loading animation */
      background-repeat: no-repeat;
      background-position: center;
@@ -3310,11 +3310,11 @@
  .hot-page2-pa-sp-top {
 }
  .hot-page2-alp {
-     background: url(../images/consul-bg-1.jpg) no-repeat center top #e6e6e6;
+     background: url(../images/import.jpg) no-repeat center top #363a36;
      background-attachment: fixed;    background-size: cover;
 }
  .all-hot-bg{
-     background: url(../images/consul-bg-2.jpg) no-repeat center top #e6e6e6;
+     background: url(../images/fiscom/metier15.jpg) no-repeat center top #363a36;
      background-attachment: fixed;
 }
  .hot-page2-alp::before {
@@ -3355,7 +3355,7 @@
  .hot-page2-alp-con {
      position: relative;
      overflow: hidden;
-     background: #f2f1f1;
+     background: rgba(0, 0, 0, 0.26);
      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.36);
 }
  .hot-page2-alp-con-left {
@@ -4266,15 +4266,15 @@
      right: 15px;
 }
  .tourz-search-form div:nth-child(1) {
-     width: 20%;
-     float: left;
-}
- .tourz-search-form div:nth-child(2) {
      width: 60%;
      float: left;
 }
+ .tourz-search-form div:nth-child(2) {
+     width: 30%;
+     float: left;
+}
  .tourz-search-form div:nth-child(3) {
-     width: 15%;
+     width: 10%;
      float: left;
 }
  .tourz-search:before {
@@ -4908,7 +4908,7 @@
 /* REGISTER AND LOGIN 
 /*-------------------------------------------------------*/
  .tr-register {
-     background: url(../images/face.jpg) #e6e6e6;
+     background: url(../images/fiscom/metier15.jpg) #e6e6e6;
      position: relative;
     /* overflow: hidden;
      */
@@ -5587,7 +5587,7 @@
  .menu-drop-menu li a{
 }
  .wed-search{
-     background: url(../images/banner.jpg) no-repeat;
+     background: url(../assets/images/pic.jpg) no-repeat;
      position: relative;
      background-size: cover;
 }
@@ -5767,7 +5767,8 @@
 /* = 7.SEARCH BOX 
 /*-------------------------------------------------*/
  .search-top{
-     background: #002147;
+     /*background: #002147;*/
+     background: red;
      padding: 12px 0px;
      box-shadow:0 4px 15px 0 rgba(0, 0, 0, 0.32);
     /* z-index: 99;
@@ -6491,13 +6492,13 @@
  .ed-micon i{
      width: 32px;
      height: 32px;
-     border: 1px solid #0a2444;
+     border: 2px solid #3c763d;
      text-align: center;
      font-size: 20px;
      padding: 5px;
-     border-radius: 2px;
+     border-radius: 3px;
      margin-top: 10px;
-     color: #0a2444;
+     color: #3c763d;
      cursor: pointer;
 }
  .ed-mm-inn{
@@ -6533,7 +6534,7 @@
      text-align: center;
      font-size: 20px;
      padding: 5px;
-     border-radius: 2px;
+     border-radius: 20px;
      margin-top: 10px;
      color: #0a2444;
      cursor: pointer;
@@ -7348,7 +7349,7 @@
  .com-fir-sp-top{
 }
  .ed-top{
-     background: #f5f7f9;
+     background: #444040;
 }
  .ed-com-t1-left{
 }
@@ -7360,7 +7361,7 @@
      display: inline-block;
 }
  .ed-com-t1-left ul li a{
-     color: #7a8088;
+     color: white;
      padding: 5px 14px;
      line-height: 30px;
      border-right: 1px solid #e7ebef;
@@ -7410,7 +7411,7 @@
      height: 30px;
     /* background: #013673;
      */
-     color: #92a5bb;
+     color: white;
      padding: 13px 4px 12px 4px;
      text-align: center;
     /* border-right: 1px solid #e7ebef;
@@ -7873,4 +7874,8 @@
  .trav-list-bod p{
      font-size: 13px;
      line-height: 20px;
+}
+
+.bordered{
+     border-bottom: 2px solid black;
 }
